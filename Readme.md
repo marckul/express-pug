@@ -1,9 +1,11 @@
 # What is used here
 1. Express with Pug/Jade  
 2. SASS/SCSS  
-  Compiling SASS/SCSS files is turn on
 
 # Available Scripts
 In the project directory, you can run for now:
 ## `npm start`
-_App listening on port 3000_
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+After making edits you have to **manually reload page** to see changes

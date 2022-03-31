@@ -14,10 +14,9 @@ app.set('views', './src/pages');
 app.use(express.static(public));
 
 app.get('/', (req, res) => {
-  const options = { title: 'Hey', message: 'Hello there!' };
-  res.render('index', options);
+  res.render('index');
 });
 
 app.get('/about', (req, res) => {
-  res.render('about')
+  res.render('about');
 });
